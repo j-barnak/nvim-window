@@ -186,7 +186,7 @@ function M.pick()
 
   local window_keys = window_keys(windows)
   local floats = open_floats(window_keys)
-  local key = get_char()
+  local key = 'h'
   local window = nil
 
   if not key or key == escape then
